@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-function Resume() {
+function Resume2() {
     return (
         <div className=" flex justify-center">
         <motion.div
@@ -10,14 +10,14 @@ function Resume() {
         href="https://drive.google.com/file/d/1Uoi364PdsMUj1AyPaZjHdnb4SlFQc7X4/view?usp=share_link"
     download={"resume"}
     target="blank"
-    className=" flex bg-yellow-400 text-blue-700 w-16 py-2
+    className=" flex bg-yellow-400 text-blue-700 text-2xl font-semibold w-40 py-5
     border-none rounded-md justify-center"
     >
-    resume
+    hire me
     </a>
     </motion.div>
     </div>
 );
 }
 
-export default Resume;
+export default Resume2;
